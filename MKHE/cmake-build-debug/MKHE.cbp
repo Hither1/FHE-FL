@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MKHE"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\lib\;CMake Files\..\..\..\..\usr\local\lib\cmake\;CMake Files\..\..\..\..\usr\local\lib\cmake\SEAL-3.6\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MKHE">
+				<Option output="/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/bin/MKHE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/SEAL-3.6"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 MKHE"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MKHE/fast">
+				<Option output="/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/bin/MKHE" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include/SEAL-3.6"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 MKHE/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/ModelProvider.cpp">
+			<Option target="MKHE"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/ModelProvider.h">
+			<Option target="MKHE"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/PublicParameter.cpp">
+			<Option target="MKHE"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/PublicParameter.h">
+			<Option target="MKHE"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/Server.cpp">
+			<Option target="MKHE"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/Server.h">
+			<Option target="MKHE"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/Session.cpp">
+			<Option target="MKHE"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/Session.h">
+			<Option target="MKHE"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/User.cpp">
+			<Option target="MKHE"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/User.h">
+			<Option target="MKHE"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/encryptor_mk.cpp">
+			<Option target="MKHE"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/encryptor_mk.h">
+			<Option target="MKHE"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/main.cpp">
+			<Option target="MKHE"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/../../../../usr/local/lib/cmake/SEAL-3.6/SEALConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SEAL-3.6\"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/../../../../usr/local/lib/cmake/SEAL-3.6/SEALConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SEAL-3.6\"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/../../../../usr/local/lib/cmake/SEAL-3.6/SEALTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SEAL-3.6\"/>
+		</Unit>
+		<Unit filename="/Users/suhuangyuan/CLionProjects/MKHE/../../../../usr/local/lib/cmake/SEAL-3.6/SEALTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\lib\cmake\SEAL-3.6\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

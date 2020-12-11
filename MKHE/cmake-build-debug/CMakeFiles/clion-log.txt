@@ -1,0 +1,6 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/suhuangyuan/CLionProjects/MKHE
+-- Microsoft SEAL -> Version 3.6.0 detected
+-- Microsoft SEAL -> Targets available: SEAL::seal
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/suhuangyuan/CLionProjects/MKHE/cmake-build-debug
